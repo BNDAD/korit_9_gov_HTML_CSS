@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h1>고객 문의 접수</h1>
+    <table>
+      <tbody>
+        <tr>
+          <td><label for="name">이름</label></td>
+          <td><input type="text" id="name" /></td>
+        </tr>
+        <tr>
+          <td><label for="email1">이메일</label></td>
+          <td><input type="email" id="email1" /></td>
+        </tr>
+        <tr>
+          <td><label for="num">전화번호</label></td>
+          <td><input type="tel" id="num" /></td>
+        </tr>
+        <tr>
+          <td><label for="category">문의유형</label></td>
+          <td>
+            <select name="" id="category">
+              <option value="">선택하세요</option>
+              <option value="">환불</option>
+              <option value="">반품</option>
+              <option value="">교환</option>
+              <option value="">상담예약</option>
+            </select>
+          </td>
+        </tr>
+        <tr>
+          <td><label for="subPath2">우선순위</label></td>
+          <td>
+            <input type="radio" name="subPath" id="subPath2" /> 낮음
+            <label for="subPath3"></label>
+            <input type="radio" name="subPath" id="subPath2" /> 보통
+            <label for="subPath3"></label>
+            <input type="radio" name="subPath" id="subPath2" /> 높음
+            <label for="subPath3"></label>
+            <input type="radio" name="subPath" id="subPath2" /> 긴급
+          </td>
+        </tr>
+        <tr>
+          <td><label for="문의">문의내용</label></td>
+          <td><textarea name="" id="문의"></textarea></td>
+        </tr>
+        <tr>
+          <td><label for="동의">알림 수신 동의</label></td>
+          <td>
+            <table>
+              <tr>
+                <td><input type="checkbox" id="동의" />이메일 수신 동의</td>
+              </tr>
+              <tr>
+                <td><input type="checkbox" id="동의" />SMS수신동의</td>
+              </tr>
+            </table>
+          </td>
+        </tr>
+        <tr>
+          <td><button>문의 접수</button><button>초기화</button></td>
+        </tr>
+      </tbody>
+    </table>
+  </body>
+</html>
